@@ -41,7 +41,7 @@
 
 goal包含两个：
 
-increment：同分支不同commidId之间的增量
+increment：同分支不同commidId之间的增量,默认为当前分支所处的commitId与所设置的commitId之间的增量
 
 differential：不同分支之间的增量，默认为当前所在的分支与master分支间的比较
 
