@@ -25,8 +25,8 @@
     	<execution>
     		<phase>package</phase>
     		<goals>
-    			<goal>increment</goal>
-   			</goals>
+    		     <goal>increment</goal>
+   		</goals>
     	</execution>
     </executions>
     <dependencies>
@@ -56,4 +56,5 @@ differential：不同分支之间的增量，默认为当前所在的分支与ma
 ###securitycatalog=WEB-INF
 childcommitid =xxxxxxxxxx
 ```
-
+4、使用
+mvn clean package
